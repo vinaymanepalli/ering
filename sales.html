@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="pages.css"
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <title>E-RING,INC.</title>
+    </head> 
+    <body>
+
+      <!--navigation bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+         <a class="navbar-brand" href="index.html">
+           <img src="./images/logotag.svg" height="100%" width="80%">
+         </a>        
+         <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="about.html" >About</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                       <a class="dropdown-item" href="partners.html">Partners</a>
+                       <a class="dropdown-item" href="careers.html">Jobs</a>
+                    </div>
+            </li>
+            <li class="nav-item dropdown" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link" href="products.html" >Products</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                 <a class="dropdown-item" href="cama.html">CAMA Edition</a>
+                 <a class="dropdown-item" href="bill-collections.html">Billing Collections</a>
+                 <a class="dropdown-item" href="permits-inspections.html">Permits Inspections</a>
+                 <a class="dropdown-item" href="code-enforcement.html">Code Enforcement</a>
+                 <a class="dropdown-item" href="land-development.html">Land Development</a>
+                 <a class="dropdown-item" href="capture_mapps.html">Capture mApps Cloud</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="support.html">Support</a>
+            </li>
+             <li class="nav-item dropdown" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link" href="sales.html" >Sales</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                       <a class="dropdown-item" href="contact_us.html">Contact us</a>
+                  </div>
+            </li>
+          </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <!-- Button-->  
+         <div class="button-container">      
+           <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter">&nbsp;LOGIN&nbsp;</button>
+         </div> 
+        </div>
+     </div>
+    </nav>
+   <br><br><br>
+   <!--image-->
+   <div class="container-fluid">
+     <div class="salesimg">
+       <img class="img-fluid" src="./images/salescrp.png">
+     </div>
+   </div>
+   <br><br>
+   <div class="container">
+     <div class="row">
+       <div class="col-md-7">
+          <h5 style="color: rgb(4, 99,155);">SALES</h5>
+          <p>Please complete the following to schedule a demo or for more information about any of our products.</p>
+          <br>
+          <h5 style="color: rgb(4, 99,155);">CONTACT US</h5>
+          <br>
+
+          <!--forms-->
+          <form>
+              <div class="form-group">
+                <label for="inputname">Name*</label>
+                <input type="name" class="form-control" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="inputemail">Email*</label>
+                <input type="email" class="form-control" name="email" required>
+              </div>
+            <div class="form-group">
+              <label for="inputphonenumber">Phone Number*</label>
+              <input type="number" class="form-control" name="Phone" required>
+            </div>
+            <div class="form-group">
+              <label for="inputJurisdiction">Jurisdiction*</label>
+              <input type="text" class="form-control" name="Jurisdiction" required>
+            </div>
+            <div class="form-group">
+                <label for="inputAdress">Work Address*</label>
+                <input type="text" class="form-control"  name="work address" required>
+            </div>
+            <div class="form-group">
+              <label for="inputcity">City*</label>
+              <input type="text" class="form-control"  name="City" required>
+            </div>
+            <div class="form-group">
+              <label for="inputState">State*</label>
+              <input type="text" class="form-control"  name="State" required>
+            </div>
+            <div class="form-group">
+              <label for="inputzip">Zip*</label>
+              <input type="number" class="form-control" name="Zip" required>
+            </div>
+            <div class="form-group">
+                <label for="inputState">Products</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Select Product</option>
+                  <option>CAMA</option>
+                  <option>Billings</option>
+                  <option>mApps</option>
+                  <option>P&I</option>
+                  <option>Code Enforcement</option>
+                  <option>Land Development</option>
+                  <option>Citizen Access</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="remarks">Remarks*</label>
+              <textarea class="form-control" rows="3" name="remarks" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;&nbsp;</button>
+          </form>      
+       </div>
+       <div class="col-md-5">
+         <br><br><br><br>
+          <div class="sal-address">
+            <br><h5 style="color: rgb(4, 99,155);">Atlanta</h><br><br>
+            <h5 style="color: rgb(4, 99,155);">ADDRESS:</h5>
+            <p>E-Ring, Inc.<br>            
+            3015 Windward Plaza<br>            
+            Suite 575<br>            
+            Alpharetta, GA 30005<br><br></p>        
+            <p style="color: rgb(4, 99,155);">PHONE:</p>          
+            <p>1-855-753-6236<br>            
+            678-240-2750<br></p>           
+            <p style="color: rgb(4, 99,155);">EMAIL:</p>          
+            <p>info@ering-cad.com</p>
+          </div>
+          <br><br><br>
+          <div class="sal-address">
+            <br><h5 style="color: rgb(4, 99,155);">India</h><br><br>
+            <h5 style="color: rgb(4, 99,155);">ADDRESS:</h5>
+            <p>E-Ring IT Solutions Private Limited,<br>              
+              1ST Floor, Building 10, Raheja Mindspace<br>              
+              Madhapur, Hyderabad, Telangana 500081, India<br><br></p>
+            <p style="color: rgb(4, 99,155);">PHONE:</p>             
+            <p>+91 7331147314<br></p>            
+            <p style="color: rgb(4, 99,155);">EMAIL:</p>            
+              <p>info@ering-cad.com<br></p>
+          </div>
+       </div>
+      </div>
+    </div>  
+   <br><br><br>
+   <!--footer-->
+   <div class="footerline">
+     <div class="container">
+        <a href="http://www.facebook.com/eringinc/">
+          <p class="footerheading">Like us on facebook</p>
+        </a>    
+      </div>
+     </div>
+     <div class="footer">
+          <br>
+         <p class="address"> E-Ring, Inc. | 3015 Windward Plaza Suite 575
+           <br>Alpharetta, GA 30005</p> 
+         <br>
+        <p class="copyrght">© Copyright 2019 E-Ring, Inc.</p>
+     </div>
+   </body>
+   <script>
+    //nav bar 
+    jQuery(function($) {
+        if ($(window).width() > 769) {
+        $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+      }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+      });
+      $('.navbar .dropdown > a').click(function() {
+       location.href = this.href;
+      });
+    }
+    });
+   </script>
+</html>
